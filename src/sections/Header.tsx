@@ -38,9 +38,9 @@ export const Header = () => {
                      <Image src={Logo} width={40} height={40} alt="logo saas" />
                   </Link>
                   <nav
-                     className={`fixed inset-0 bg-black text-white h-dvh w-full z-50 p-10 translate-x-full transition-transform lg:static lg:h-auto lg:w-auto lg:text-black/50 lg:bg-transparent lg:p-0 lg:translate-x-0 ${
-                        menuOpen && 'translate-x-0'
-                     } ${menuClose && 'translate-x-full'}`}
+                     className={`fixed inset-0 bg-black text-white h-dvh w-full z-50 p-10 transition-transform lg:static lg:h-auto lg:w-auto lg:text-black/50 lg:bg-transparent lg:p-0 lg:translate-x-0 ${
+                        menuOpen ? 'translate-x-0' : 'translate-x-full'
+                     }`}
                   >
                      <button
                         className="lg:hidden absolute top-10 right-10"
