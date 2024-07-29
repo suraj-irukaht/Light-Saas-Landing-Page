@@ -55,11 +55,9 @@ export const Pricing = () => {
    return (
       <section className="py-24 bg-white">
          <div className="container">
-            <div className="text-center max-w-[540px] mx-auto">
-               <h2 className="text-3xl font-bold tracking-tighter mb-3">
-                  Pricing
-               </h2>
-               <p className="text-lg text-gray-700">
+            <div className="section-heading">
+               <h2 className="section-title">Pricing</h2>
+               <p>
                   Free forever. Upgrade for unlimited tasks, better security,
                   and exclusive features.
                </p>

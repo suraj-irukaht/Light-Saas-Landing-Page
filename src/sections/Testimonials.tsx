@@ -143,12 +143,10 @@ export const Testimonials = () => {
    return (
       <section className="py-24 bg-white">
          <div className="container">
-            <div className="text-center max-w-[540px] mx-auto">
+            <div className="section-heading">
                <div className="tag">Version 2.0 is here</div>
-               <h2 className="text-3xl font-bold tracking-tighter mb-3">
-                  What our users say
-               </h2>
-               <p className="text-lg text-gray-700">
+               <h2 className="section-title">What our users say</h2>
+               <p>
                   From intuitive design to powerful features, our app has become
                   an essential tool for users around the world.
                </p>

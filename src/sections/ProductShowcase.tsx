@@ -19,12 +19,12 @@ export const ProductShowcase = () => {
       >
          <div className="container">
             <div className="">
-               <div className="text-center max-w-[540px] mx-auto">
+               <div className="section-heading">
                   <div className="tag">Boost your productivity</div>
-                  <h2 className="text-3xl font-bold tracking-tighter mb-3">
+                  <h2 className="section-title">
                      A more effective way to track progress
                   </h2>
-                  <p className="text-lg text-gray-700">
+                  <p>
                      Celebrate the joy of accomplishment with an app designed to
                      track your progress and motivate your efforts.
                   </p>

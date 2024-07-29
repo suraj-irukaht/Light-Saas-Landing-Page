@@ -18,11 +18,9 @@ export const CallToAction = () => {
          className="py-24 bg-gradient-to-b from-[#fff] to-[#d2dcff]"
       >
          <div className="container">
-            <div className="text-center max-w-[540px] mx-auto relative">
-               <h2 className="text-3xl font-bold tracking-tighter mb-3">
-                  Sign up for free today
-               </h2>
-               <p className="text-lg text-gray-700">
+            <div className="section-heading relative">
+               <h2 className="section-title">Sign up for free today</h2>
+               <p>
                   Celebrate the joy of accomplishment with an app designed to
                   track your progress and motivate your efforts.
                </p>
